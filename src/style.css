@@ -1,0 +1,77 @@
+body,
+html {
+  height: 100%;
+  width: 100%;
+}
+
+body {
+  background: linear-gradient(to top, #dad4ec 0%, #dad4ec 1%, #f3e7e9 100%);
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+header {
+  margin-bottom: 30px;
+}
+
+h1 {
+  text-align: center;
+  font-weight: 800;
+  font-size: 36px;
+  line-height: 1.5;
+  color: #272044;
+}
+
+form {
+  background-color: white;
+  box-shadow: 0px 20px 60px rgba(65, 50, 100, 0.08);
+  border-radius: 10px;
+  margin-bottom: 30px;
+  padding: 30px;
+  display: flex;
+}
+
+a {
+  color: #3e3467;
+  font-weight: 500;
+}
+
+.container {
+  margin: 120px auto;
+  max-width: 600px;
+}
+
+.input-field {
+  border: 1px solid rgba(39, 33, 66, 0.5);
+  border-radius: 50px;
+  width: 80%;
+  padding: 16px;
+  font-size: 16px;
+  line-height: 20px;
+  color: #272044;
+}
+
+.submit-button {
+  border-radius: 50px;
+  margin-left: 10px;
+  font-size: 16px;
+  width: 150px;
+  border: none;
+  background-color: #3e3467;
+  color: white;
+  padding: 14px 24px;
+}
+
+.lyrics {
+  font-size: 16px;
+  background-color: white;
+  padding: 20px;
+  line-height: 1.5;
+  border-left: 3px solid #3e3467;
+  box-shadow: 0px 4px 30px 0px rgba(39, 33, 66, 0.03);
+}
+
+footer {
+  text-align: center;
+  font-size: 13px;
+  margin-top: 30px;
+}
